@@ -13,6 +13,12 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 <style type="text/tailwindcss">
+    a {
+@apply text-green-800
+       hover:text-green-600
+       focus:text-green-600
+       transition-colors duration-300;
+}
 header {
     @apply flex flex-col justify-around items-center w-full mx-auto
         bg-green-300
@@ -81,7 +87,6 @@ header {
 
 <section>
 
-    <h2>Guinness Storehouse, Dublin</h2>
     <h2 id="guinness">Guinness Storehouse, Dublin</h2>
 
 <img src="assets/img/guinness-storehouse.jpg" alt="Guinness Storehouse">
@@ -124,7 +129,7 @@ header {
     <p>Based at Trinity College in the heart of Dublin city, the <a href="https://www.tcd.ie/visitors/book-of-kells/" target="_blank">Book of Kells Exhibition</a> is a must-see on the itinerary of all visitors to Ireland. It showcases the nation's greatest cultural treasure and the world's most famous medieval manuscript: the Book of Kells, a 9th-century manuscript that documents the four Gospels of the life of Jesus Christ. The Exhibition also features access to the Long Room, a magnificent and beautiful library, that houses 200,000 of Trinity College's oldest books.</p>
     <p class="highlight-text"><span> Annual Number of Visitors: <b>983,410</b></span></p>
     <p><a href="#top-of-page">Return to top of page</a></p>  
-    
+
 </section>
 
 </main>
